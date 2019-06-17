@@ -17,3 +17,8 @@ mybatis:
   type-aliases-package: com.springcloud.entity  #设置 Mybatis实体类位置
   configuration:
     map-underscore-to-camel-case: true          #开动Mybatis驼峰命名规则
+
+pagehelper:
+  helper-dialect: mysql                          #设置数据库
+  reasonable: true                               #启用分页合理化参数
+  support-methods-arguments: true
